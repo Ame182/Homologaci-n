@@ -83,10 +83,10 @@ h3{
 
 }
 
-
 /* Experiencia */
 section{
 	padding-top: 30px;
+	height: 100%;
 }
 
 .img1 {
@@ -206,16 +206,29 @@ p{
 	padding-top: 30%;
 }
 
+.expe{
+	height: 100vh;
+	padding-top: 50%;
+}
+
 .work{
 	padding: 20px;
 }
 
 .img-thumbnail{
 	height: 60vh;
+	margin-left: 30px;
 }
 
 .thumb{
 	background-image: url(../images/kwafood.png);
+	background-size: cover;
+	height: 50vh;
+	padding: 10px;
+}
+
+.thumb2{
+	background-image: url(../images/ricomida.png);
 	background-size: cover;
 	height: 50vh;
 	padding: 10px;
@@ -226,4 +239,33 @@ p{
 	height: 20%;
 	color: black;
 	padding: 0;
+}
+
+/*Contacto */
+#contactos{
+	height: 100vh;
+	padding: 20px;
+}
+
+.texto input{
+	width: 90%;
+	height: 30vh;
+	padding: 20px;
+	padding-left: 30px;
+}
+
+
+/* footer */
+.jumbotron{
+	background-color: #553d7c;
+	color: yellow;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron i{
+	font-size: 30px;
+	color: yellow;
+	text-align: center;
+	padding-top: 10px;
 }
