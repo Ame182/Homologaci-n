@@ -269,3 +269,20 @@ p{
 	text-align: center;
 	padding-top: 10px;
 }
+
+.media{
+	margin-left: 45%;
+}
+
+/*banner*/
+.banner {
+	padding: 30px;
+
+}
+
+.banner img{
+	width: 600px;
+	align-content: center;
+	padding-left: 50px;
+	margin-left: 350px;
+}
