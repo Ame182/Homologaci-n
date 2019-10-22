@@ -47,7 +47,7 @@ a .nav-link{
 
 }
 
-.textoinicial{
+.textoinicial h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,6 +55,175 @@ a .nav-link{
 	font-size: 60px;
 	font-family: 'Indie Flower', cursive;
 	color: yellow;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+section .yo{
+	padding: 50px;
 }
 
 
+h3{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #553d7c;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.yo .row{
+	padding: 20px;
+	text-align: justify;
+}
+
+@media (max-width: 800px){
+	.yo{
+		display: none;	
+	}
+
+}
+
+
+/* Experiencia */
+section{
+	padding-top: 30px;
+}
+
+.img1 {
+	background-image: url(../images/ferreteria.jpg);
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-size: cover;
+}
+
+.img2 {
+	background-image: url(../images/publicidad.jpg);
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-size: cover;
+}
+
+.img3 {
+	background-image: url(../images/foto.jpg);
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-size: cover;
+}
+
+.img4 {
+	background-image: url(../images/mkt.jpg);
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-size: cover;
+}
+
+.info1{
+	position: absolute;
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-color: #553d7c;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s;
+
+}
+
+.img1:hover .info1{
+	opacity: 0.8;
+
+}
+
+.info2{
+	position: absolute;
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-color: #553d7c;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s;
+
+}
+
+.img2:hover .info2{
+	opacity: 0.8;
+
+}
+
+.info3{
+	position: absolute;
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-color: #553d7c;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s;
+
+}
+
+.img3:hover .info3{
+	opacity: 0.8;
+
+}
+
+.info4{
+	position: absolute;
+	width: 25%;
+	height: 250px;
+	margin: 0;
+	float: left;
+	background-color: #553d7c;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s;
+
+}
+
+.img4:hover .info4{
+	opacity: 0.8;
+
+}
+
+p{
+	color: white;
+	position: absolute;
+	z-index: 10;
+	opacity: 10;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10%;
+	padding-top: 30%;
+}
+
+.work{
+	padding: 20px;
+}
+
+.img-thumbnail{
+	height: 60vh;
+}
+
+.thumb{
+	background-image: url(../images/kwafood.png);
+	background-size: cover;
+	height: 50vh;
+	padding: 10px;
+}
+
+.img-thumbnail p{
+	width: 100%;
+	height: 20%;
+	color: black;
+	padding: 0;
+}
